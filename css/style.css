@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1920px;
+    margin:0 auto;
+    border: 2px solid red;
+}
+body{
+    font-family: 'Cinzel Decorative', cursive;
+}
+header {
+    background-color: #1E1E1E;
+    min-height: 100vh;
+}
+.hedr-top{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 46px;
+    min-height: 136px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    min-width: 610px;
+    justify-content: space-between;
+}
+nav ul{
+    list-style:none;
+}
+nav ul a{
+    display: block;
+    padding: 18px 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+} nav ul li a:hover{
+    background: #104aa3;
+    color: #ffffff;
+}
+.header-info{ 
+background-image: url(./img/start-screen-puppy.png);
+min-height: 80vh;
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: contain;
+}
+.header-info h1{
+    display: flex;
+align-items: center;
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 130%;
+color: #FFFFFF;
+}
